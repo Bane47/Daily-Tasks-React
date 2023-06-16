@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* layout  */
+nav{
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+}
+ul{
+  list-style-type: none;
+   display: flex;
+   text-align: center;
+   padding: .9em 0 0 0 ;
+   width: 110%;
+}
+#link1,#link2{
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 100px;
+  
+}
+#link2{
+  margin-left: 500px;
+}
